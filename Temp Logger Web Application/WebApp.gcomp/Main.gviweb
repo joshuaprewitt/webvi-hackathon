@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="72984089AB7DC77A1DF0F17DADC7E20A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="35D4E2A2F06F816BAFE4DA81CD15B922" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
@@ -256,7 +256,7 @@
 					</Literal>
 					<Wire Facade="WireInvisibleFacade" Id="120" Joints="N(119:Out)|(75,95) N(117:c1t0v)|(75,95)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="121" Joints="N(113:i0)|(6,105) N(117:c2t0v)|(75,105)" xmlns="http://www.ni.com/PlatformFramework" />
-					<CaseStructure Bounds="195 45 635 115" DataType="Int32" Default="126" Id="122" Selected="130" UserSelectorBounds="260 0 114.666664 17.333334">
+					<CaseStructure Bounds="195 45 635 115" DataType="Int32" Default="126" Id="122" Selected="130" UserSelectorBounds="260 0 114.5 17">
 						<CaseStructure.Case Bounds="5 5 625 105" Id="126" Pattern="0, Default">
 							<DataAccessor Bounds="130 20 40 15" DataItem="207" Id="134" Label="135" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -474,14 +474,14 @@
 				<p.Data>ec2-34-202-230-132.compute-1.amazonaws.com</p.Data>
 				<StringBehavior TextDisplayMode="Default" />
 			</Literal>
-			<Literal Bounds="-345 150 145 15" DataType="String" Facade="String" Id="194" Label="196" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>ni-crio-9068-190cb7b</p.Data>
+			<Literal Bounds="-355 150 155 15" DataType="String" Facade="String" Id="194" Label="196" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>ni-crio-9068-01b7d46d</p.Data>
 				<StringBehavior TextDisplayMode="Default" />
 			</Literal>
 			<NodeLabel AttachedTo="193" Bounds="-505 393 37 14" Id="195" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Server</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="194" Bounds="-345 133 35 14" Id="196" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="194" Bounds="-355 133 35 14" Id="196" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Target</p.Text>
 			</NodeLabel>
 			<Wire Id="197" Joints="N(193:Out)|(-205,415) h(25) B(1) N(95:o0)|(-164,415) B(1) v(-270) N(17:o0)|(-164,145)" xmlns="http://www.ni.com/PlatformFramework" />
